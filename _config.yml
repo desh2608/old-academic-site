@@ -1,8 +1,8 @@
 name: Desh Raj
 description: Personal website
 menu:
- - page: About
-   url: /about
+ # - page: About
+ #   url: /about
 #  - page: Papers
 #    url: /papers
 #    links:
