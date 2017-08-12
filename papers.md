@@ -5,14 +5,17 @@ date: 2016-04-13
 layout: default
 ---
 
-"Papers" introductory paragraph.
+## Published/Accepted
+**Desh Raj**, Sunil Kumar Sahu, and Ashish Anand. *Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text*. The SIGNLL Conference on Computational Natural Language Learning (CoNLL) 2017. [Paper](http://www.aclweb.org/anthology/K/K17/K17-1032.pdf)
+
+**Desh Raj**, Aditya Gupta, Bhuvnesh Garg, Kenil Tanna, and Frank Chung-Hoon Rhee. *Analysis of data generated from multidimensional type-1 and type-2 fuzzy membership functions*. IEEE Transactions on Fuzzy Systems. [Paper](http://ieeexplore.ieee.org/document/7888454/)
+
+**Desh Raj**, Kenil Tanna, Bhuvnesh Garg, and Frank Chung-Hoon Rhee. *Visual analysis and representations of type-2 fuzzy membership functions*. IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) 2016. [Paper](http://ieeexplore.ieee.org/document/7737735/)
+
+## Under review
+
+Shakaiba Majheed, Aditya Gupta, **Desh Raj**, and Frank Chung-Hoon Rhee. *Uncertain fuzzy self-organization based clustering: interval type-2 approach to adaptive resonance theory*. Information Sciences.
 
 ## Working papers
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus molestie libero id blandit. Ut condimentum urna eget cursus scelerisque. Proin bibendum finibus urna. Aenean blandit, ligula ac faucibus posuere, felis est consequat est, id mollis ligula velit id erat. Vivamus in ullamcorper ex, nec faucibus diam. Aenean eros purus, elementum sed nunc vitae, faucibus semper nibh. In ac nisl vitae massa scelerisque sagittis a elementum lectus.
 
-## Published papers
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus molestie libero id blandit. Ut condimentum urna eget cursus scelerisque. Proin bibendum finibus urna. Aenean blandit, ligula ac faucibus posuere, felis est consequat est, id mollis ligula velit id erat. Vivamus in ullamcorper ex, nec faucibus diam. Aenean eros purus, elementum sed nunc vitae, faucibus semper nibh. In ac nisl vitae massa scelerisque sagittis a elementum lectus.
-
-Here is a paper, which you can find at [ResearchGate](http://dx.doi.org/10.13140/RG.2.1.1137.2247).
-
-<iframe style="margin: 10px 0 40px 0;" class="pdf-iframe" src="https://drive.google.com/file/d/0B-xXQEsWEjrUUmpBdkhIVS10YjA/preview" width="100%" height="768"></iframe>
+Aditya Gupta, Aditya Siddhant, **Desh Raj**, and Ashish Anand. *Identifying semantically equivalent questions*.

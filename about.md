@@ -1,12 +1,14 @@
 ---
 title: "About"
 summary: "About this page."
-date: 2016-04-13
+date: 2017-08-12
 layout: default
 ---
 
-"About" introductory paragraph.
+I am a Computer Science graduate from IIT Guwahati (India). My research interest is in deep learning applied to Natural Language Processing. I have also worked with pattern recognition and fuzzy logic systems in the past.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus molestie libero id blandit. Ut condimentum urna eget cursus scelerisque. Proin bibendum finibus urna. Aenean blandit, ligula ac faucibus posuere, felis est consequat est, id mollis ligula velit id erat. Vivamus in ullamcorper ex, nec faucibus diam. Aenean eros purus, elementum sed nunc vitae, faucibus semper nibh. In ac nisl vitae massa scelerisque sagittis a elementum lectus.
+I am particularly interested in the application of advanced deep learning methods to improve machine reading tasks, and eventually push the state-of-the-art in problems like machine translation, question-answering, and abstractive summarization.
 
-![Researcher Portrait](assets/images/ole.jpg "Ole Vik")
+I am looking for potential Ph.D. advisors, and would be willing to start as soon as possible. My CV can be downloaded [here](assets/DeshRaj.pdf)
+
+![Desh Raj photo](assets/images/desh-bw.jpg "Desh Raj")
