@@ -52,3 +52,5 @@ markdown: kramdown
 encoding: utf-8
 baseurl: desh2608.github.io
 locale: en_GB
+
+theme: jekyll-theme-cayman
