@@ -52,6 +52,7 @@ layout: default
 * Recently extended the proposed method for high-dimensional data using dimensionality reduction approaches like PCA, kernel PCA, probabilistic PCA, and t-SNE
 
 [**IEEE TFS**](http://ieeexplore.ieee.org/document/7888454/)
+
 [**FUZZ-IEEE**](http://ieeexplore.ieee.org/document/7737735/)
 
 ## Fuzzy adaptive resonance theory (ART) clustering
