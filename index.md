@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "About Me"
 summary: "About this page."
 date: 2017-08-12
 layout: default
