@@ -5,53 +5,22 @@ menu:
    url: /about
  - page: Papers
    url: /papers
-   links:
-    - title: Working papers
-      url: "#working-papers"
-    - title: Published papers
-      url: "#published-papers"
  - page: Research Projects
    url: /research
-   links:
-    - title: "Project One"
-      url: "#project-one"
-    - title: "Project Two"
-      url: "#project-two"
-    - title: "Project Three"
-      url: "#project-three"
-    - title: "Project Four"
-      url: "#project-four"
  - page: Curriculum Vitae
-   url: /cv
-   links:
-    - title: Experience
-      url: "#experience"
-    - title: Education
-      url: "#education"
-    - title: Positions
-      url: "#positions"
-    - title: Miscellaneous
-      url: "#miscellaneous"
- - page: Teaching
-   url: /teaching
- - page: Media
-   url: /media
- - page: Accolades
-   url: /accolades
+   url: /assets/DeshRaj.pdf
+
 menu_external:
- - title: OleVik.me
-   url: "http://olevik.me/"
  - title: Research Gate
-   url: "https://www.researchgate.net/profile/Ole_Vik"
+   url: "https://www.researchgate.net/profile/Desh_Raj"
  - title: LinkedIn
-   url: "https://no.linkedin.com/in/olehhvik"
- - title: Twitter
-   url: "https://twitter.com/olehhv"
+   url: "https://www.linkedin.com/in/rdesh26/"
+ - title: Medium
+   url: "https://medium.com/@rdesh26"
 mathjax: false
 markdown: kramdown
 encoding: utf-8
 baseurl: /desh2608.github.io
 locale: en_GB
-
 theme: jekyll-theme-cayman
 repository: desh2608/desh2608.github.io
