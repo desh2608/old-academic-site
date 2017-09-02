@@ -15,13 +15,14 @@ layout: default
 **Desh Raj**, Kenil Tanna, Bhuvnesh Garg, and Frank Chung-Hoon Rhee. *Visual analysis and representations of type-2 fuzzy membership functions*. IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) 2016.
 [Paper](http://ieeexplore.ieee.org/document/7737735/)
 
-***
-
-## Under review
-
 Shakaiba Majheed, Aditya Gupta, **Desh Raj**, and Frank Chung-Hoon Rhee. *Uncertain fuzzy self-organization based clustering: interval type-2 approach to adaptive resonance theory*. Information Sciences.
-
 ***
+
+<!-- ## Under review -->
+
+
+
+<!-- *** -->
 
 ## Working papers
 
