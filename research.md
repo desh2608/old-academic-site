@@ -14,8 +14,8 @@ layout: default
 * Evaluated an attentive pooling strategy in comparison with conventional pooling methods
 * Achieved state-of-the-art performance on two benchmark datasets (i2b2 and DDI) without any need for manual feature engineering
 
-[**CoNLL'17**](http://www.aclweb.org/anthology/K/K17/K17-1032.pdf)
-[Poster](assets/conll_poster.pdf)
+[**CoNLL'17**](http://www.aclweb.org/anthology/K/K17/K17-1032.pdf)&emsp;
+[Poster](assets/conll_poster.pdf)&emsp;
 [Code](https://github.com/desh2608/crnn-relation-classification)
 
 #### 2. Identifying semantically equivalent questions
@@ -31,7 +31,7 @@ layout: default
 * Developed an unsupervised approach for predicting text readability scores using different language models
 * Implemented statistical and deep-learning models, for comparing results with vocabulary-based and syntactic approaches
 
-[Report](assets/entropy_report.pdf)
+[Report](assets/entropy_report.pdf)&emsp;
 [Slides](assets/entropy_ppt.pdf)
 
 #### 4. Spatial transformer networks
@@ -40,7 +40,7 @@ layout: default
 * Used the STN module from [Jaderberg et al.](https://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf) (NIPS 2015) for object recognition and activity prediction from egocentric images
 * Worked with GTEA and Intel Egocentric Vision data sets on Tensorflow
 
-[Report](assets/stn_report.pdf)
+[Report](assets/stn_report.pdf)&emsp;
 [Slides](assets/stn_ppt.pdf)
 
 ***
@@ -54,7 +54,7 @@ layout: default
 * Worked on feature selection using Gradient Boosting, and representation of categorical features by a single numeric feature using STG and RDA methods
 * Also proposed a meta-optimization of the evaluation metric using Bayesian optimization, as a post-classification step
 
-[Report](assets/bosch_report.pdf)
+[Report](assets/bosch_report.pdf)&emsp;
 [Slides](assets/bosch_ppt.pdf)
 
 #### 2. Similarity analysis on multidimensional fuzzy sets
@@ -64,8 +64,8 @@ layout: default
 * Established guidelines for selecting appropriate MFs based on data set and application requirements
 * Recently extended the proposed method for high-dimensional data using dimensionality reduction approaches like PCA, kernel PCA, probabilistic PCA, and t-SNE
 
-[**IEEE TFS**](assets/tfs_preprint.pdf)
-[**FUZZ-IEEE 16**](assets/fuzzieee16_preprint.pdf)
+[**IEEE TFS**](assets/tfs_preprint.pdf)&emsp;
+[**FUZZ-IEEE 16**](assets/fuzzieee16_preprint.pdf)&emsp;
 [**IFSA 17**](assets/ifsa17_preprint.pdf)
 
 #### 3. Fuzzy adaptive resonance theory (ART) clustering
@@ -81,5 +81,5 @@ layout: default
 * Through a reevaluation of performance parameters, we showed that query evaluation is indeed the
 bottleneck in efficient development and implementation of the probabilistic DBMS model
 
-[Report](assets/dbms_survey_paper.pdf)
+[Report](assets/dbms_survey_paper.pdf)&emsp;
 [Slides](assets/dbms_ppt.pdf)
