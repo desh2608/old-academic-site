@@ -15,6 +15,8 @@ layout: default
 * Achieved state-of-the-art performance on two benchmark datasets (i2b2 and DDI) without any need for manual feature engineering
 
 [**CoNLL'17**](http://www.aclweb.org/anthology/K/K17/K17-1032.pdf)
+[Poster](assets/conll_poster.pdf)
+[Code](https://github.com/desh2608/crnn-relation-classification)
 
 #### 2. Identifying semantically equivalent questions
 *Guide: Prof. Ashish Anand, Dept. of CSE, IIT Guwahati*
@@ -29,11 +31,17 @@ layout: default
 * Developed an unsupervised approach for predicting text readability scores using different language models
 * Implemented statistical and deep-learning models, for comparing results with vocabulary-based and syntactic approaches
 
+[Report](assets/entropy_report.pdf)
+[Slides](assets/entropy_ppt.pdf)
+
 #### 4. Spatial transformer networks
 *Guide: Prof. Arijit Sur, Dept. of CSE, IIT Guwahati*
 
 * Used the STN module from [Jaderberg et al.](https://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf) (NIPS 2015) for object recognition and activity prediction from egocentric images
 * Worked with GTEA and Intel Egocentric Vision data sets on Tensorflow
+
+[Report](assets/stn_report.pdf)
+[Slides](assets/stn_ppt.pdf)
 
 ***
 
@@ -46,6 +54,9 @@ layout: default
 * Worked on feature selection using Gradient Boosting, and representation of categorical features by a single numeric feature using STG and RDA methods
 * Also proposed a meta-optimization of the evaluation metric using Bayesian optimization, as a post-classification step
 
+[Report](assets/bosch_report.pdf)
+[Slides](assets/bosch_ppt.pdf)
+
 #### 2. Similarity analysis on multidimensional fuzzy sets
 *Guide: Prof. Frank Chung-Hoon Rhee, Dept. of ECE, Hanyang University, Korea*
 
@@ -53,11 +64,22 @@ layout: default
 * Established guidelines for selecting appropriate MFs based on data set and application requirements
 * Recently extended the proposed method for high-dimensional data using dimensionality reduction approaches like PCA, kernel PCA, probabilistic PCA, and t-SNE
 
-[**IEEE TFS**](http://ieeexplore.ieee.org/document/7888454/)
-[**FUZZ-IEEE**](http://ieeexplore.ieee.org/document/7737735/)
+[**IEEE TFS**](assets/tfs_preprint.pdf)
+[**FUZZ-IEEE 16**](assets/fuzzieee16_preprint.pdf)
+[**IFSA 17**](assets/ifsa17_preprint.pdf)
 
 #### 3. Fuzzy adaptive resonance theory (ART) clustering
 *Guide: Prof. Frank Chung-Hoon Rhee, Dept. of ECE, Hanyang University, Korea*
 
 * Worked on improving clustering performance of fuzzy ART algorithm by integrating Interval Type-2 approach into vigilance parameter computation
 * Obtained 5-10% better classification results compared to other methods
+
+#### 4. Survey on probabilistic databases
+*Guide: Prof. Amit Awekar, Dept. of CSE, IIT Guwahati, India*
+
+* Reviewed existing work on probabilistic DBs, categorized into 5 major sections, namely algebra, query evaluation, conditioning, scaling and implementation
+* Through a reevaluation of performance parameters, we showed that query evaluation is indeed the
+bottleneck in efficient development and implementation of the probabilistic DBMS model
+
+[Report](assets/dbms_survey_paper.pdf)
+[Slides](assets/dbms_ppt.pdf)
