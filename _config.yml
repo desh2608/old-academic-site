@@ -7,6 +7,8 @@ menu:
    url: /research
  - page: Curriculum Vitae
    url: /assets/DeshRaj.pdf
+ - page: Blog
+   url: /blog.html
 
 menu_external:
  - title: Google Scholar
