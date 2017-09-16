@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Metrics for NLG evaluation
 date: 2017-09-15
 ---

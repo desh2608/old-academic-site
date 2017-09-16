@@ -2,40 +2,35 @@
 title: "Blog"
 layout: default
 ---
+<div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
 
-<ul>
-  {% for post in site.posts %}
-  <li>
-              <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h2>
-              <div class="label">
-                  <div class="label-card">
-                      <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
-                  </div>
-                  <div class="label-card">
-                      {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
-                      {% endif %}
-                  </div>
-                  <div class="label-card">
-                      {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
-                  </div>
+        {% if post.excerpt %}
+        <p class="post-excerpt">
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+        </p>
 
-                  <div class="label-card">
-                  {% include category.html %}
-                  </div>
+        {% if post.comments %}
+        <nav class="post-actions">
+          <a class="post-comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Comments</a>
+        </nav>
+        {% endif %}
 
-                  <div class="label-card">
-                  {% include tag.html %}
-                  </div>
-              </div>
-              <div class="excerpt">
-                  {{post.excerpt}}
-              </div>
-              <div class="read-all">
-                  <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a>
-              </div>
-              <hr>
-            </li>
-  {% endfor %}
-</ul>
+        {% endif %}
+        <span class="post-meta">
+          {{ post.date | date: "%b %-d, %Y" }}
+          {% if post.author %}
+          by
+          <a href="{{ post.author.url }}">
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author.name }}</span></span>
+          </a>
+          {% endif %}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
