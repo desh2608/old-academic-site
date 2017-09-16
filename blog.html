@@ -2,35 +2,16 @@
 title: "Blog"
 layout: default
 ---
-<div>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+{% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        {% if post.excerpt %}
-        <p class="post-excerpt">
-          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-        </p>
-
-        {% if post.comments %}
-        <nav class="post-actions">
-          <a class="post-comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Comments</a>
-        </nav>
-        {% endif %}
-
-        {% endif %}
-        <span class="post-meta">
-          {{ post.date | date: "%b %-d, %Y" }}
-          {% if post.author %}
-          by
-          <a href="{{ post.author.url }}">
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author.name }}</span></span>
-          </a>
-          {% endif %}
-        </span>
-      </li>
-    {% endfor %}
-  </ul>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> post.title }}</a>
+      </h2>
+      {{ post.excerpt }}
+      {% if post.content contains site.excerpt_separator %}
+          <a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
+      {% endif %}
+    </li>
+{% endfor %}

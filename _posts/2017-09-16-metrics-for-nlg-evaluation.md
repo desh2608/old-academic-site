@@ -15,6 +15,7 @@ Evaluating natural language generation systems is a much more complex task,
 however. And for this reason, a number of different metrics have been proposed
 for tasks such as machine translation or summarization. In this blog, I describe
 3 major schemes, namely BLEU, ROUGE, and METEOR.
+<!--excerpt-->
 
 *****
 
