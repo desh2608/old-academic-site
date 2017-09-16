@@ -2,7 +2,6 @@
 layout: post
 title: Metrics for NLG evaluation
 date: 2017-09-15
-layout: default
 ---
 # Metrics for NLG evaluation
 
@@ -41,12 +40,11 @@ differentiates the 3 schemes for NLG evaluation.
 
 *****
 
-### [BLEU (Bilingual Evaluation
-Understudy)](http://aclweb.org/anthology/P/P02/P02-1040.pdf)
+### [BLEU (Bilingual Evaluation Understudy](http://aclweb.org/anthology/P/P02/P02-1040.pdf)
 
 This is by far the most popular metric for evaluating machine translation
 system. In BLEU, precision and recall are approximated by *modified n-gram
-precision *and *best match length, *respectively.
+precision* and *best match length,* respectively.
 
 **Modified n-gram precision**: First, an n-gram precision is the fraction of
 n-grams in the candidate text which are present in any of the reference texts.
@@ -71,7 +69,7 @@ averaging to represent all values fairly.
 
 ![](https://cdn-images-1.medium.com/max/800/0*JOtiUUE91vEGiWFS.)
 
-**Best match length: **While precision calculation was relatively simple, the
+**Best match length:** While precision calculation was relatively simple, the
 problem with recall is that there may be many reference texts. So it is
 difficult to calculate the sensitivity of the candidate with respect to a
 general reference. However, it is intuitive to think that a longer candidate
@@ -80,21 +78,20 @@ shorter candidate. At the same time, we have already ensured that candidate
 texts are not arbitrarily long, since then their precision score would be low.
 
 Therefore, we can introduce recall by just penalizing brevity in candidate
-texts. This is done by adding a multiplicative factor *BP *with the modified
+texts. This is done by adding a multiplicative factor *BP* with the modified
 n-gram precision as follows.
 
 ![](https://cdn-images-1.medium.com/max/800/0*NeI10ZqfbZYopnIR.)
 
-Here, *c *is the total length of candidate translation corpus, and *r *is the
+Here, *c* is the total length of candidate translation corpus, and *r* is the
 effective reference length of corpus, i.e., average length of all references.
 The lengths are taken as average over the entire corpus to avoid harshly
 punishing the length deviations on short sentences. As the candidate length
-decreases, the ratio *r*/*c *increases, and the BP decreases exponentially.
+decreases, the ratio *r*/*c* increases, and the BP decreases exponentially.
 
 *****
 
-### [ROUGE (Recall Oriented Understudy for Gisting
-Evaluation)](http://www.aclweb.org/anthology/W/W04/W04-1013.pdf)
+### [ROUGE (Recall Oriented Understudy for Gisting Evaluation)](http://www.aclweb.org/anthology/W/W04/W04-1013.pdf)
 
 As is clear from its name, ROUGE is based only on recall, and is mostly used for
 summary evaluation. Depending on the feature used for calculating recall, ROUGE
@@ -102,7 +99,7 @@ may be of many types, namely ROUGE-N, ROUGE-L, ROUGE-W, and ROUGE-S. Here, we
 describe the idea behind one of these, and then give a quick run-down of the
 others.
 
-**ROUGE-N: **This is based on n-grams. For example, ROUGE-1 counts recall based
+**ROUGE-N:** This is based on n-grams. For example, ROUGE-1 counts recall based
 on matching unigrams, and so on. For any *n*, we count the total number of
 n-grams across all the reference summaries, and find out how many of them are
 present in the candidate summary. This fraction is the required metric value.
@@ -112,12 +109,11 @@ skip-bigram co-occurence statistics, respectively. Instead of using only recall,
 these use an F-score which is the harmonic mean of precision and recall values.
 These are in turn, calculated as follows for ROUGE-L.
 
-Suppose A and B are candidate and reference summaries of lengths *m *and *n
-*respectively. Then, we have
+Suppose A and B are candidate and reference summaries of lengths *m* and *n* respectively. Then, we have
 
 ![](https://cdn-images-1.medium.com/max/800/0*ZPvcGqf_CeWSYpcO.)
 
-*F *is then calculated as the weighted harmonic mean of P and R, as
+*F* is then calculated as the weighted harmonic mean of P and R, as
 
 ![](https://cdn-images-1.medium.com/max/800/0*WDZnqJXzFc0tjlsF.)
 
@@ -131,36 +127,35 @@ function.
 
 *****
 
-### [METEOR (Metric for Evaluation for Translation with Explicit
-Ordering)](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf)
+### [METEOR (Metric for Evaluation for Translation with Explicit Ordering)](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf)
 
 METEOR is another metric for machine translation evaluation, and it claims to
 have better correlation with human judgement.
 
 So why do we need a new metric when BLEU is already available? The problem with
-BLEU is that since the *BP *value uses lengths which are averaged over the
+BLEU is that since the *BP* value uses lengths which are averaged over the
 entire corpus, so the scores of individual sentences take a hit.
 
 To solve this problem, METEOR modifies the precision and recall computations,
 replacing them with a weighted F-score based on mapping unigrams and a penalty
 function for incorrect word order.
 
-**Weighted F-score: **First, we try to find the largest subset of mappings that
+**Weighted F-score:** First, we try to find the largest subset of mappings that
 can form an alignment between the candidate and reference translations. For
 this, we look at exact matches, followed by matches after Porter stemming, and
-finally using WordNet synonymy. After such an alignment is found, suppose *m *is
+finally using WordNet synonymy. After such an alignment is found, suppose *m* is
 the number of mapped unigrams between the two texts. Then, precision and recall
 are given as *m*/*c* and *m*/*r*, where *c* and *r* are candidate and reference
 lengths, respectively. F is calculated as
 
 ![](https://cdn-images-1.medium.com/max/800/0*KohO6V7OSKtCIuqD.)
 
-**Penalty function: **To account for the word order in the candidate, we
+**Penalty function:** To account for the word order in the candidate, we
 introduce a penalty function as
 
 ![](https://cdn-images-1.medium.com/max/800/0*rs7oN7-lfHWHxUyQ.)
 
-Here, *c* is the number of matching chunks and *m *is the total number of
+Here, *c* is the number of matching chunks and *m* is the total number of
 matches. As such, if most of the matches are contiguous, the number of chunks is
 lower and the penalty decreases. Finally, the METEOR score is given as
 (1-*Penalty*)*F*.
