@@ -11,7 +11,7 @@ semantic parsing and semantic role labeling (SRL). This is not an extensive
 review of these methods, but just a collection of my notes on reading some
 recent research on the subject. However, I do believe it covers most of the
 latest trends as well as their limitations.*
-
+<!--excerpt-->
 *****
 
 But first, **what is semantic parsing?**
