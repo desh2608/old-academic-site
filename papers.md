@@ -27,6 +27,7 @@ Shakaiba Majheed, Aditya Gupta, **Desh Raj**, and Frank Chung-Hoon Rhee. *Uncert
 **Desh Raj**, Kenil Tanna, Bhuvnesh Garg, and Frank Chung-Hoon Rhee. *Visual analysis and representations of type-2 fuzzy membership functions*. IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) 2016.
 [PDF](assets/fuzzieee16_preprint.pdf)&emsp;
 [Slides](https://drive.google.com/open?id=0B2M9S61SxoELSlo5VUtSY0tkd2s)
+
 ***
 
 <!-- ## Under review -->

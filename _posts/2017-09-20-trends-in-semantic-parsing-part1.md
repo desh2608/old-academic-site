@@ -169,3 +169,5 @@ arXiv:1703.04826* (2017).
 [3] Dong, Li, and Mirella Lapata.
 “[https://arxiv.org/pdf/1601.01280.pdf](https://arxiv.org/pdf/1601.01280.pdf).”
 *arXiv preprint arXiv:1601.01280* (2016).
+
+*Originally published on [Medium](https://medium.com/explorations-in-language-and-learning/trends-in-semantic-parsing-part-1-ba11888523cb).*
