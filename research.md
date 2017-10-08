@@ -1,6 +1,6 @@
 ---
 title: "Research"
-summary: "About this page."
+summary: "Description of research projects with links to papers/reports/slides/code"
 date: 2016-04-13
 layout: default
 ---
@@ -41,8 +41,8 @@ layout: default
 * Worked with GTEA and Intel Egocentric Vision data sets on Tensorflow
 
 [Report](assets/stn_report.pdf)&emsp;
-[Slides](assets/stn_ppt.pdf)
-
+[Slides](assets/stn_ppt.pdf)&emsp;
+[Code](https://github.com/desh2608/CS574-CVML)
 ***
 
 ### Artificial intelligence, pattern recognition, and fuzzy theory
@@ -73,6 +73,8 @@ layout: default
 
 * Worked on improving clustering performance of fuzzy ART algorithm by integrating Interval Type-2 approach into vigilance parameter computation
 * Obtained 5-10% better classification results compared to other methods
+
+[Paper](https://authors.elsevier.com/c/1Vr7A4ZQDoMXI)
 
 #### 4. Survey on probabilistic databases
 *Guide: Prof. Amit Awekar, Dept. of CSE, IIT Guwahati, India*

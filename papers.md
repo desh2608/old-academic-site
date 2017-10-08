@@ -19,7 +19,7 @@ layout: default
 [IEEEXplore](http://ieeexplore.ieee.org/document/8023265/)
 
 Shakaiba Majheed, Aditya Gupta, **Desh Raj**, and Frank Chung-Hoon Rhee. *Uncertain fuzzy self-organization based clustering: interval type-2 approach to adaptive resonance theory*. Information Sciences.
-[ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0020025516320850)
+[ScienceDirect](https://authors.elsevier.com/c/1Vr7A4ZQDoMXI)
 
 ### 2016
 
