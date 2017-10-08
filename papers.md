@@ -9,7 +9,7 @@ layout: default
 
 ### 2017
 
-**Desh Raj**, Sunil Kumar Sahu, and Ashish Anand. *Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text*. The SIGNLL Conference on Computational Natural Language Learning (CoNLL) 2017.
+**Desh Raj**, Sunil Kumar Sahu, and Ashish Anand. *Learning local and global context using a convolutional recurrent network model for relation classification in biomedical text*. The SIGNLL Conference on Computational Natural Language Learning (CoNLL) 2017. PP 311–321
 [PDF](http://www.aclweb.org/anthology/K/K17/K17-1032.pdf)&emsp;
 [Poster](assets/conll_poster.pdf)&emsp;
 [Code](https://github.com/desh2608/crnn-relation-classification)
@@ -18,7 +18,7 @@ layout: default
 [PDF](assets/ifsa17_preprint.pdf)&emsp;
 [IEEEXplore](http://ieeexplore.ieee.org/document/8023265/)
 
-Shakaiba Majheed, Aditya Gupta, **Desh Raj**, and Frank Chung-Hoon Rhee. *Uncertain fuzzy self-organization based clustering: interval type-2 approach to adaptive resonance theory*. Information Sciences.
+Shakaiba Majheed, Aditya Gupta, **Desh Raj**, and Frank Chung-Hoon Rhee. *Uncertain fuzzy self-organization based clustering: interval type-2 approach to adaptive resonance theory*. Information Sciences 424 (2018). PP 69–90
 [ScienceDirect](https://authors.elsevier.com/c/1Vr7A4ZQDoMXI)
 
 ### 2016
@@ -27,7 +27,7 @@ Shakaiba Majheed, Aditya Gupta, **Desh Raj**, and Frank Chung-Hoon Rhee. *Uncert
 [PDF](assets/tfs_preprint.pdf)&emsp;
 [IEEEXplore](http://ieeexplore.ieee.org/document/7888454/)
 
-**Desh Raj**, Kenil Tanna, Bhuvnesh Garg, and Frank Chung-Hoon Rhee. *Visual analysis and representations of type-2 fuzzy membership functions*. IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) 2016.
+**Desh Raj**, Kenil Tanna, Bhuvnesh Garg, and Frank Chung-Hoon Rhee. *Visual analysis and representations of type-2 fuzzy membership functions*. IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) 2016. PP 550–554
 [PDF](assets/fuzzieee16_preprint.pdf)&emsp;
 [IEEEXplore](http://ieeexplore.ieee.org/document/7737735/)&emsp;
 [Slides](https://drive.google.com/open?id=0B2M9S61SxoELSlo5VUtSY0tkd2s)

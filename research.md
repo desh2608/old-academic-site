@@ -43,6 +43,7 @@ layout: default
 [Report](assets/stn_report.pdf)&emsp;
 [Slides](assets/stn_ppt.pdf)&emsp;
 [Code](https://github.com/desh2608/CS574-CVML)
+
 ***
 
 ### Artificial intelligence, pattern recognition, and fuzzy theory
