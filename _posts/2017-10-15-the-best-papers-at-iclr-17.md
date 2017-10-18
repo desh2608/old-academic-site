@@ -12,6 +12,8 @@ of the papers accepted at this year’s ICLR, especially the 3 that were awarded
 the Best Paper award. In this article, I will try to summarize these 3 papers in
 simple words, and hopefully get an idea about what’s hot in deep learning.
 
+<!--excerpt-->
+
 The 3 best papers are:
 
 1.  [Understanding deep learning requires rethinking
