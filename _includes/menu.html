@@ -20,7 +20,8 @@
 					{% endfor %}
 					</ul>
 				{% else %}
-					<li><a href=".{{ item.url }}">{{ item.page }}</a></li>
+					<!-- <li><a href=".{{ item.url }}">{{ item.page }}</a></li> -->
+					<li><a href="{{ item.url }}" target="_blank">{{ item.page }}</a></li>
 				{% endif %}
 			{% endfor %}
 		</ul>
