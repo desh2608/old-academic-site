@@ -5,9 +5,9 @@ menu:
    url: /papers
  - page: Research Projects
    url: /research
- - page: Curriculum Vitae
+ - title: Curriculum Vitae
    url: /assets/DeshRaj.pdf
- - page: Blog
+ - title: Blog
    url: "https://medium.com/explorations-in-language-and-learning"
 
 menu_external:
