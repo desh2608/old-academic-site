@@ -5,10 +5,10 @@ menu:
    url: /papers
  - page: Research Projects
    url: /research
- - title: Curriculum Vitae
+ - page: Curriculum Vitae
    url: /assets/DeshRaj.pdf
- - title: Blog
-   url: "https://medium.com/explorations-in-language-and-learning"
+ - page: Blog
+   url: https://medium.com/explorations-in-language-and-learning
 
 menu_external:
  - title: Google Scholar
