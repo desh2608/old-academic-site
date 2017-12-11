@@ -8,7 +8,7 @@ menu:
  - page: Curriculum Vitae
    url: /assets/DeshRaj.pdf
  - page: Blog
-   url: https://medium.com/explorations-in-language-and-learning
+   url: "https://medium.com/explorations-in-language-and-learning"
 
 menu_external:
  - title: Google Scholar
@@ -17,6 +17,8 @@ menu_external:
    url: "https://www.researchgate.net/profile/Desh_Raj"
  - title: LinkedIn
    url: "https://www.linkedin.com/in/rdesh26/"
+ - title: GitHub
+   url: "https://github.com/desh2608"
  # - title: Medium
  #   url: "https://medium.com/@rdesh26"
 mathjax: false

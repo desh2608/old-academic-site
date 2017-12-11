@@ -7,7 +7,20 @@ layout: default
 
 ### Deep learning applied to NLP and Vision
 
-#### 1. Relation classification for biomedical text
+#### Opinion summary generation from Twitter
+*Guide: Prof. Ashish Anand, Dept. of CSE, IIT Guwahati*
+
+* Developing an end-to-end system to generate topic summaries by clustering tweets related to a topic
+* Proposed a novel retrofitting approach to integrate meta information from Retweet graphs into the tweet embedding.
+
+#### Irony detection in tweets
+*Personal project (SemEval 2018 Task 3)*
+
+* Objective is two-fold: to recognize whether a tweet contains irony, and to classify the type of irony.
+* Designing an approach based on circular correlation between tweet and hashtags.
+* (Code will be made available when contest ends)
+
+#### Relation classification for biomedical text
 *Bachelor Thesis Project under Prof. Ashish Anand, Dept. of CSE, IIT Guwahati*
 
 * Devised and implemented a novel Convolutional Recurrent Neural Network (CRNN) model to learn long and short term dependencies
@@ -18,14 +31,14 @@ layout: default
 [Poster](assets/conll_poster.pdf)&emsp;
 [Code](https://github.com/desh2608/crnn-relation-classification)
 
-#### 2. Identifying semantically equivalent questions
+<!-- #### Identifying semantically equivalent questions
 *Guide: Prof. Ashish Anand, Dept. of CSE, IIT Guwahati*
 
 * Working on a novel technique to identify duplicate questions using a joint representation and a template-based approach
 * Comparing with baselines involving feature-based classifiers, kernel-based pair-wise ranking, soft cosine similarity, and adversarial training
-* Evaluation on the Quora dataset and a StackOverflow dataset
+* Evaluation on the Quora dataset and a StackOverflow dataset -->
 
-#### 3. Text readability analysis using language modeling
+#### Text readability analysis using language modeling
 *Guide: Prof. Ashish Anand, Dept. of CSE, IIT Guwahati*
 
 * Developed an unsupervised approach for predicting text readability scores using different language models
@@ -34,7 +47,7 @@ layout: default
 [Report](assets/entropy_report.pdf)&emsp;
 [Slides](assets/entropy_ppt.pdf)
 
-#### 4. Spatial transformer networks
+#### Spatial transformer networks
 *Guide: Prof. Arijit Sur, Dept. of CSE, IIT Guwahati*
 
 * Used the STN module from [Jaderberg et al.](https://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf) (NIPS 2015) for object recognition and activity prediction from egocentric images
@@ -48,7 +61,7 @@ layout: default
 
 ### Artificial intelligence, pattern recognition, and fuzzy theory
 
-#### 1. Monitoring production line performance to reduce failures
+#### Monitoring production line performance to reduce failures
 *Guide: Prof. Rashmi Dutta Baruah, Dept. of CSE, IIT Guwahati*
 
 * The objective was to model fault recognition as a classification problem consisting of very high-dimensional data containing thousands of instances
@@ -58,7 +71,7 @@ layout: default
 [Report](assets/bosch_report.pdf)&emsp;
 [Slides](assets/bosch_ppt.pdf)
 
-#### 2. Similarity analysis on multidimensional fuzzy sets
+#### Similarity analysis on multidimensional fuzzy sets
 *Guide: Prof. Frank Chung-Hoon Rhee, Dept. of ECE, Hanyang University, Korea*
 
 * Analyzed various multidimensional fuzzy membership functions and compared similarity of data sets using Wilcoxons nonparametric tests
@@ -69,7 +82,7 @@ layout: default
 [**FUZZ-IEEE 16**](assets/fuzzieee16_preprint.pdf)&emsp;
 [**IFSA 17**](assets/ifsa17_preprint.pdf)
 
-#### 3. Fuzzy adaptive resonance theory (ART) clustering
+#### Fuzzy adaptive resonance theory (ART) clustering
 *Guide: Prof. Frank Chung-Hoon Rhee, Dept. of ECE, Hanyang University, Korea*
 
 * Worked on improving clustering performance of fuzzy ART algorithm by integrating Interval Type-2 approach into vigilance parameter computation
@@ -77,7 +90,7 @@ layout: default
 
 [Paper](https://authors.elsevier.com/c/1Vr7A4ZQDoMXI)
 
-#### 4. Survey on probabilistic databases
+#### Survey on probabilistic databases
 *Guide: Prof. Amit Awekar, Dept. of CSE, IIT Guwahati, India*
 
 * Reviewed existing work on probabilistic DBs, categorized into 5 major sections, namely algebra, query evaluation, conditioning, scaling and implementation
