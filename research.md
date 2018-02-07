@@ -17,8 +17,10 @@ layout: default
 *Personal project (SemEval 2018 Task 3)*
 
 * Objective is two-fold: to recognize whether a tweet contains irony, and to classify the type of irony.
-* Designing an approach based on circular correlation between tweet and hashtags.
-* (Code will be made available when contest ends)
+* Used holographic embeddings to model semantic interaction within a tweet, and transfer learning for world knowledge about irony in text.
+
+[Blog](https://medium.com/explorations-in-language-and-learning/irony-detection-in-tweets-6220f480cc60)&emsp;
+[Code](https://github.com/desh2608/tweet-irony-detection)
 
 #### Relation classification for biomedical text
 *Bachelor Thesis Project under Prof. Ashish Anand, Dept. of CSE, IIT Guwahati*
