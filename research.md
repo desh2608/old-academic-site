@@ -7,11 +7,20 @@ layout: default
 
 ### Deep learning applied to NLP and Vision
 
-#### Opinion summary generation from Twitter
+<!-- #### Opinion summary generation from Twitter
 *Guide: Prof. Ashish Anand, Dept. of CSE, IIT Guwahati*
 
 * Developing an end-to-end system to generate topic summaries by clustering tweets related to a topic
-* Proposed a novel retrofitting approach to integrate meta information from Retweet graphs into the tweet embedding.
+* Proposed a novel retrofitting approach to integrate meta information from Retweet graphs into the tweet embedding. -->
+
+#### Waldo: A system for optical character recognition
+*Contributor in ongoing project under Daniel Povey*
+
+* Wrote visualization and compression utilities for segmentation mask overlayed on image
+* Modified training script for ICDAR 2015 incidental text data
+* System consists of a UNet as described [here](https://arxiv.org/abs/1505.04597)
+
+[Code](https://github.com/waldo-seg/waldo/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Adesh2608+)
 
 #### Irony detection in tweets
 *Personal project (SemEval 2018 Task 3)*
